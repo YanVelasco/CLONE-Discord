@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+body header {
+  background: url(images/Mobile-header.png);
+  max-width: 100%;
+  width: 26.75rem;
+  height: 31.625rem;
+  flex-shrink: 0;
+}
+body header .container_header {
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  color: #fff;
+  padding: 6rem 1.5rem;
+  row-gap: 1.5rem;
+}
+body header .container_header h1 {
+  font-size: 2rem;
+  font-family: Luckiest Guy;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body header .container_header p {
+  font-size: 1rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body header .container_header a {
+  text-decoration: none;
+  width: auto;
+  border: 1px solid #23272A;
+  border-radius: 1.75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  height: 3.375rem;
+  flex-shrink: 0;
+}
+body header .container_header .link-a {
+  color: black;
+  background-color: #fff;
+}
+body header .container_header .link-b {
+  background-color: #23272A;
+}
+body main section {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem 1.5rem;
+  row-gap: 1.69rem;
+}
+body main section h1 {
+  color: #23272A;
+  font-size: 1.5rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+body main section p {
+  color: #23272A;
+  font-size: 1rem;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+body footer {
+  display: flex;
+  width: auto;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #23272A;
+}/*# sourceMappingURL=index.css.map */
